@@ -4,7 +4,7 @@
 	font-family: inherit;
 	font-style: inherit;
 	font-size: 100%;
-	border: 1px solid black;
+	border: 0 none;
 	outline: 0;
 	padding: 0;
 	margin: 0;
@@ -16,4 +16,133 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
 
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 8rem;
+    padding: 1% 5%;
+}
+
+nav {
+    padding: 2% 0;
+    font-size: 1.6rem;
+}
+nav a {
+    padding: 1% 0;
+    display: inline-block;
+    border-radius: 10px;
+    width: 10%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.orange {
+    background-color: #ff764e;
+    margin-left: 10%;
+}
+
+.blue {
+    background-color: #5ed3eb;
+    margin:0 24%;
+}
+
+.yellow {
+    background-color: #ffcd69;
+    margin-right: 10%;
+}
+
+#top {
+    width: 90%;
+    margin:0 auto;
+    text-align: center;
+    display: flex;
+}
+
+#leftbox {
+    width: 40%;
+    height: 25%;
+}
+
+#rightbox {
+    width: 60%;
+    line-height: 1.8;
+}
+
+#headimg {
+    width: 60%;
+    border-radius: 50%;
+    padding: 2% 0;
+}
+
+h2 {
+    font-size: 3.8rem;
+    padding-bottom: 5%;
+}
+
+#middle {
+    width: 90%;
+    margin:0 auto;
+    text-align: center;
+}
+
+#description {
+    background-color: #DDB9A3;
+    text-align: center;
+}
+
+.des {
+    padding: 1.2%;
+    color: white;
+    font-size: 2.2rem;
+}
+
+#fire {
+    width: 30%;
+    margin:0 auto;
+    padding: 1%;
+}
+
+#bus {
+    width: 30%;
+    margin:0 auto;
+    padding: 1%;
+}
+
+.icon {
+    width: 80%;
+    display: block;
+    margin:0 auto;
+    height: 20rem;
+}
+span {
+    font-weight: bold;
+}
+
+#bottomnav {
+    padding: 2% 0;
+    font-size: 1.6rem;
+    background-color: #F9E7DC;
+}
+
+#bottomnav a{
+    padding: 1% 0;
+    display: inline-block;
+    border-radius: 10px;
+    width: 10%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footimg {
+    width: 100%;
+    height: 47rem;
+    margin: 0 auto;
+    background-image: url("assets/newfooter_img.jpg");
+}
